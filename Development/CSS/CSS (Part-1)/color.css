@@ -1,9 +1,15 @@
 h1{
+    /* <!-- color property --> */
     color: blue;
+    /* <!-- background-color property --> */
+    background-color: gray;
 }
 p{
     color:red;
+    background-color: cornsilk;
 }
 button{
-    color: green;
+    color: gold;
+    background-color: black;
 }
+/*gfgggvvhg*/
