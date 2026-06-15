@@ -1,7 +1,9 @@
+/* Universal Selector */
 *{
     font-family: "Courier New";
 }
 
+/* Element Selector */
 h1{
     color: #b92b27;
 }
@@ -10,6 +12,7 @@ h3{
     color: purple
 }
 
+/* Id Selector */
 #login{
     background-color: white;
 }
@@ -19,10 +22,12 @@ h3{
     color: white;
 }
 
+/* Class Selector */
 .upvote{
     background-color: green;
     color: white;
 }
+
 /* descendant Selector */
 p a{
     color: purple;
@@ -33,6 +38,7 @@ nav a{
     color: hotpink;
 }
 
+/* Adjacent Sibling Combination */
 p + h3{
     text-decoration: underline;
 }
@@ -42,10 +48,12 @@ p + h3{
     color: darkblue;
 }
 
+/* Child Combination */
 div > input {
     background-color:darksalmon;
 }
 
+/* Attribute Selector */
 input[type="text"]{
     color: green;
 }
@@ -62,6 +70,7 @@ input[type]{
     color: green;
 }
 
+/* Pesudo Class */
 button:hover{
     background-color: black;
     color: white;
@@ -90,6 +99,7 @@ div:nth-of-type(2n) {
     background-color:blanchedalmond
 }
 
+/* Pesudo Element */
 h1::first-letter{
     color: black;
 }
@@ -102,6 +112,7 @@ p::selection{
     background-color: yellowgreen;
 }
 
+/* Cascading  & Specificity */
 h3{
     background-color: yellow;
 }
