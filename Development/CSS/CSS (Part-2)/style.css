@@ -45,3 +45,47 @@ p + h3{
 div > input {
     background-color:darksalmon;
 }
+
+input[type="text"]{
+    color: green;
+}
+
+input[type="password"]{
+    color: red
+}
+
+input[type]{
+    background-color: ghostwhite;
+}
+
+#myId p{
+    color: blue;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+h3:hover{
+    text-decoration: none;
+}
+
+button:active{
+    background-color: hotpink;
+    color: black;
+}
+
+p:active{
+    font-weight: bold;
+    color: green;
+}
+
+input[type="radio"]:checked + label{
+    color:red;
+    font-weight:bold;
+}
+
+div:nth-of-type(2n) {
+    background-color:blanchedalmond
+}
